@@ -66,7 +66,8 @@ const League = function League(region, apikey) {
     );
     return data;
   };
-  // My own functionality
+  // My own functionality added
+
   // START HERE
   this.leaguesById = async (Id) => {
     const res = await axios.get(
