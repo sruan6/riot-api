@@ -41,6 +41,7 @@ getLolSummonerByName(summonerName);
 
 - lol.
   - Summoner.
+    - summonerByName(summonerName)
   - Specator.
   - ChampionMastery.
 
