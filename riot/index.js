@@ -1,4 +1,4 @@
-const region = require('../utils/utilies');
+const region = require('../lib/utils/utilies');
 const account = require('./accountV1');
 
 const riotapi = function(key) {

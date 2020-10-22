@@ -1,4 +1,4 @@
-const region = require('../utils/utilies');
+const region = require('../lib/utils/utilies');
 const summoner = require('./summonerV4');
 const spectator = require('./spectatorV4');
 const championMastery = require('./champion_masteryV4');

@@ -1,4 +1,4 @@
-const region = require('../utils/utilies');
+const region = require('../lib/utils/utilies');
 const match = require('./matchV1');
 const summoner = require('./summonerV1');
 const league = require('./leagueV1');

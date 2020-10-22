@@ -1,7 +1,7 @@
 {
   "name": "riot-api",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Riot Api Wrapper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,23 @@
     "type": "git",
     "url": "git+https://github.com/ruan060606/riot-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["riot", "league", "of", "legends", "tft", "valorant", "lor", "lol", "val", "runeterra"],
+  "author": {
+    "name": "Stephen Ruan",
+    "email": "ruan060695@gmail.com",
+    "url": "https://github.com/ruan060606/"
+  },
+  "contributors": [
+    {
+      "name": "Stephen Ruan",
+      "email": "ruan060695@gmail.com",
+      "url": "https://github.com/ruan060606/"
+    }
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ruan060606/riot-api/issues"
+    "url": "https://github.com/ruan060606/riot-api/issues",
+    "email" : "ruan060695@gmail.com"
   },
   "homepage": "https://github.com/ruan060606/riot-api#readme",
   "dependencies": {
