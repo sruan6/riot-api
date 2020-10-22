@@ -1,7 +1,7 @@
 # riot-api
 
 ```javascript
-const lol = new lolapi({ region: 'NA', apikey: 'YOUR API KEY' })
+const lol = new lolapi({ region: 'KR', apikey: 'YOUR API KEY' })
 const summonerName = 'Hide on Bush';
 // Get League Of Legends Summoner Info By Name
 async function getSummonerByName(name) {
