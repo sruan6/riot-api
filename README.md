@@ -2,6 +2,8 @@
 
 ### List of api to finish
 
+[link to Riot!](https://developer.riotgames.com/)
+
 - [x] account-v1
 - [x] champion-mastery-v4
 - [ ] champion-v3
@@ -21,7 +23,7 @@
 - [ ] tournament-stub-v4
 - [ ] tournament-v4
 
-# **League of Legends**
+# **🎮League of Legends🎮**
 
 ```javascript
 const { Lol } = require('riot-api');
@@ -37,7 +39,12 @@ async function getLolSummonerByName(name) {
 getLolSummonerByName(summonerName);
 ```
 
-# **TeamFight Tactics**
+- lol.
+  - Summoner.
+  - Specator.
+  - ChampionMastery.
+
+# **🎮TeamFight Tactics🎮**
 
 ```javascript
 const { Tft } = require('riot-api');
@@ -53,7 +60,12 @@ async function getTftSummonerByName(name) {
 getTftSummonerByName(summonerName);
 ```
 
-# **Legends of Runeterra**
+- tft.
+  - Summoner.
+  - Match.
+  - League.
+
+# **🎮Legends of Runeterra🎮**
 
 ```javascript
 const { Lor } = require('riot-api');
@@ -68,7 +80,11 @@ async function getLorRanked() {
 getLorRanked();
 ```
 
-| PLATFORM |          HOST          |  REGION  |            HOST            |
+- lor.
+  - Ranked.
+  - Match.
+
+| PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
 | :------: | :--------------------: | :------: | :------------------------: |
 |    BR    | br1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
 |   EUN    | eun1.api.riotgames.com |  EUROPE  |  europe.api.riotgames.com  |
@@ -81,3 +97,8 @@ getLorRanked();
 |   OCE    | oc1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
 |    TR    | tr1.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 |    RU    |  ru.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
+
+### Future updates
+
+- [ ] ddragon for image
+- [ ] league of legend oauth
