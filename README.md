@@ -4,7 +4,7 @@
 | PLATFORM  | HOST |
 |  :---: |  :---: |
 | BR1  | br1.api.riotgames.com  |
-| EUN1  | Content Cell  |
+| EUN1  | eun1.api.riotgames.com  |
 | EUW1	| euw1.api.riotgames.com  |
 | JP1	| jp1.api.riotgames.com  |
 | KR	| kr.api.riotgames.com  |
