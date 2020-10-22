@@ -1,13 +1,31 @@
 # riot-api
 
-```javascript
-const { Lol } = require("riot-api");
+# **League of Legends**
 
-const lol = new Lol({ region: "KR", apikey: "YOUR API KEY" });
-const summonerName = "Hide on Bush";
+```javascript
+const { Lol } = require('riot-api');
+
+const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
+const summonerName = 'Hide on Bush';
 // Get League Of Legends Summoner Info By Name
 async function getSummonerByName(name) {
   const response = await lol.Summoner.summonerByName(name);
+  console.log(response);
+}
+
+getSummonerByName(summonerName);
+```
+
+# **TeamFight Tactics**
+
+```javascript
+const { Tft } = require('riot-api');
+
+const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
+const summonerName = 'Giuttony';
+// Get League Of Legends Summoner Info By Name
+async function getSummonerByName(name) {
+  const response = await tft.Summoner.summonerByName(name);
   console.log(response);
 }
 
