@@ -30,15 +30,15 @@ getSummonerByName(summonerName);
 
 
 
-| REGION | | HOST |
+| REGION | HOST |
 |  :---: |  :---: |
-| NA | | americas.api.riotgames.com |
-| BR | | americas.api.riotgames.com |
-| LAN | | americas.api.riotgames.com |
-| LAS | | americas.api.riotgames.com |
-| OCE | | americas.api.riotgames.com |
-| KR | | asia.api.riotgames.com |
-| JP | | asia.api.riotgames.com |
-| EUN | |europe.api.riotgames.com |
-| EUW | |europe.api.riotgames.com |
-| RU | |europe.api.riotgames.com |
+| NA | americas.api.riotgames.com |
+| BR | americas.api.riotgames.com |
+| LAN | americas.api.riotgames.com |
+| LAS | americas.api.riotgames.com |
+| OCE | americas.api.riotgames.com |
+| KR | asia.api.riotgames.com |
+| JP | asia.api.riotgames.com |
+| EUN | europe.api.riotgames.com |
+| EUW | europe.api.riotgames.com |
+| RU | europe.api.riotgames.com |
