@@ -1,10 +1,10 @@
 const region = require('../lib/utils/utilies');
-const account = require('./accountV1');
+const Account = require('./accountV1');
 
-const riotapi = function(key) {
-    this.region = region(key.region);
-    this.apikey = key.apikey;
-    this.Account = new account(this.region, this.apikey)
-}
+const Riotapi = function RiotAPi(key) {
+  this.region = region(key.region);
+  this.apikey = key.apikey;
+  this.Account = new Account(this.region, this.apikey);
+};
 
-module.exports = riotapi;
+module.exports = Riotapi;

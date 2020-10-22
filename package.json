@@ -10,7 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/ruan060606/riot-api.git"
   },
-  "keywords": ["riot", "league", "of", "legends", "tft", "valorant", "lor", "lol", "val", "runeterra"],
+  "keywords": [
+    "riot",
+    "league",
+    "of",
+    "legends",
+    "tft",
+    "valorant",
+    "lor",
+    "lol",
+    "val",
+    "runeterra"
+  ],
   "author": {
     "name": "Stephen Ruan",
     "email": "ruan060695@gmail.com",
@@ -18,7 +29,7 @@
   },
   "contributors": [
     {
-      "name": "Stephen Ruan",
+      "name": "StephenZ Ruan",
       "email": "ruan060695@gmail.com",
       "url": "https://github.com/ruan060606/"
     }
@@ -26,10 +37,21 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ruan060606/riot-api/issues",
-    "email" : "ruan060695@gmail.com"
+    "email": "ruan060695@gmail.com"
   },
   "homepage": "https://github.com/ruan060606/riot-api#readme",
   "dependencies": {
     "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "2.1.2"
   }
 }

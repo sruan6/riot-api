@@ -4,4 +4,4 @@ const Riot = require('./riot');
 const Lol = require('./lol');
 const Tft = require('./tft');
 
-module.exports = { Riot, Lol, Tft }
+module.exports = { Riot, Lol, Tft };
