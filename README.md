@@ -14,31 +14,16 @@ getSummonerByName(summonerName);
 ```
 
 
-| PLATFORM  | HOST |
-|  :---: |  :---: |
-| BR  | br1.api.riotgames.com  |
-| EUN  | eun1.api.riotgames.com  |
-| EUW	| euw1.api.riotgames.com  |
-| JP	| jp1.api.riotgames.com  |
-| KR	| kr.api.riotgames.com  |
-| LAN	| la1.api.riotgames.com  |
-| LAS	| la2.api.riotgames.com  |
-| NA	| na1.api.riotgames.com  |
-| OCE	| oc1.api.riotgames.com  |
-| TR	| tr1.api.riotgames.com  |
-| RU	| ru.api.riotgames.com  |
-
-
-
-| REGION | HOST |
-|  :---: |  :---: |
-| NA | americas.api.riotgames.com |
-| BR | americas.api.riotgames.com |
-| LAN | americas.api.riotgames.com |
-| LAS | americas.api.riotgames.com |
-| OCE | americas.api.riotgames.com |
-| KR | asia.api.riotgames.com |
-| JP | asia.api.riotgames.com |
-| EUN | europe.api.riotgames.com |
-| EUW | europe.api.riotgames.com |
-| RU | europe.api.riotgames.com |
+| PLATFORM  | HOST | REGION | HOST |
+|  :---: |  :---: | :---: | :---: |
+| BR  | br1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
+| EUN  | eun1.api.riotgames.com  | EUROPE | europe.api.riotgames.com |
+| EUW	| euw1.api.riotgames.com  | EUROPE | europe.api.riotgames.com |
+| JP	| jp1.api.riotgames.com  | ASIA | asia.api.riotgames.com |
+| KR	| kr.api.riotgames.com  | ASIA | asia.api.riotgames.com |
+| LAN	| la1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
+| LAS	| la2.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
+| NA	| na1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
+| OCE	| oc1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
+| TR	| tr1.api.riotgames.com  | EUROPE | europe.api.riotgames.com |
+| RU	| ru.api.riotgames.com  | EUROPE | europe.api.riotgames.com |
