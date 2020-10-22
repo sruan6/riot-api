@@ -103,3 +103,7 @@ getLorRanked();
 
 - [ ] ddragon for image
 - [ ] league of legend oauth
+
+### Thank You!
+
+![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
