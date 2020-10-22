@@ -27,3 +27,18 @@ getSummonerByName(summonerName);
 | OCE	| oc1.api.riotgames.com  |
 | TR	| tr1.api.riotgames.com  |
 | RU	| ru.api.riotgames.com  |
+
+
+
+| REGION | | HOST |
+|  :---: |  :---: |
+| NA | | americas.api.riotgames.com |
+| BR | | americas.api.riotgames.com |
+| LAN | | americas.api.riotgames.com |
+| LAS | | americas.api.riotgames.com |
+| OCE | | americas.api.riotgames.com |
+| KR | | asia.api.riotgames.com |
+| JP | | asia.api.riotgames.com |
+| EUN | |europe.api.riotgames.com |
+| EUW | |europe.api.riotgames.com |
+| RU | |europe.api.riotgames.com |
