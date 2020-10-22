@@ -1,8 +1,11 @@
 # riot-api
 
-### List of api to finish
+Isn't it a pain to use the riot api documation. Typing all the http calls and understanding the whole documentation :confused:.
+Well riot-api is very easy to use. Just `npm install riot-api --save` and then you can start using the prewritten functionaility!
 
-[link to Riot!](https://developer.riotgames.com/)
+Get the api key from [link to Riot!](https://developer.riotgames.com/)
+
+### List of api to finish
 
 - [x] account-v1
 - [x] champion-mastery-v4
