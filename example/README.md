@@ -1,5 +1,5 @@
 markdown: kramdown
-[go](http://stackoverflow.com){:target="\_blank" rel="noopener"}
+[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 create example here later
 
 |     FUNCTION     |          API           |                            Riot                            |           SAMPLE           |
