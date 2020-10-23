@@ -9,24 +9,26 @@ Get the api key from [Riot!](https://developer.riotgames.com/)
 
 ### List of api to finish
 
-- [x] account-v1
-- [x] champion-mastery-v4
-- [ ] champion-v3
-- [ ] clash-v1
-- [ ] league-exp-v4
-- [ ] league-v4
+- [x] riot-account-v1
+- [x] lol-champion-mastery-v4
+- [ ] lol-champion-v3
+- [ ] lol-clash-v1
+- [ ] lol-league-exp-v4
+- [ ] lol-league-v4
 - [ ] lol-status-v3
 - [x] lor-match-v1
 - [x] lor-ranked-v1
-- [ ] match-v4
-- [x] spectator-v4
-- [x] summoner-v4
+- [ ] lol-match-v4
+- [x] lol-spectator-v4
+- [x] lol-summoner-v4
 - [x] tft-league-v1
 - [x] tft-match-v1
 - [x] tft-summoner-v1
-- [ ] third-party-code-v4
-- [ ] tournament-stub-v4
-- [ ] tournament-v4
+- [ ] lol-third-party-code-v4
+- [ ] lol-tournament-stub-v4
+- [ ] lol-tournament-v4
+- [x] val-content-v1
+- [ ] val-match-v1 (No access yet :disappointed_relieved:)
 
 # **🎮League of Legends🎮**
 
