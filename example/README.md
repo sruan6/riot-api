@@ -1,4 +1,7 @@
-markdown: kramdown
+require 'kramdown'
+
+Kramdown::Document.new(text).to_html
+
 [go](http://stackoverflow.com){:target="\_blank" rel="noopener"}
 create example here later
 
