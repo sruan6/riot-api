@@ -1,16 +1,19 @@
 # riot-api
 
+Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
+
 # How to get started
 
-Isn't it a pain to use the riot api documation. Typing all the http calls and understanding the whole documentation :confused:.
-Well riot-api is very easy to use. Just `npm install riot-api --save` and then you can start using the prewritten functionaility!
+`npm install riot-api --save`
 
 Get the api key from [Riot!](https://developer.riotgames.com/)
 
 ### List of api to finish
 
 - [x] riot-account-v1
-  - [ ] documentation
+  - [x] /riot/account/v1/accounts/by-puuid/{puuid}
+  - [x] /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}
+  - [x] /riot/account/v1/active-shards/by-game/{game}/by-puuid/{puuid}
 - [x] lol-champion-mastery-v4
   - [ ] documentation
 - [ ] lol-champion-v3
