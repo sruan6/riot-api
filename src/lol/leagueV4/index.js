@@ -1,4 +1,5 @@
 const axios = require('axios');
+const Summoner = require("../summonerV4");
 
 // LEAGUE-V4
 const League = function League(region, apikey) {
@@ -39,10 +40,16 @@ const League = function League(region, apikey) {
     );
     return data;
   };
+
+  // My own functionality added
+
+  // START HERE
   this.leaguesByName = async(SN) => {
+    console.log("HELLO");
     const response = await Summoner.summonerByName(SN);
     console.log(response);
-}
+  }
+
 };
 
 module.exports = League;
