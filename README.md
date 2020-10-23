@@ -9,27 +9,46 @@ Get the api key from [Riot!](https://developer.riotgames.com/)
 
 ### List of api to finish
 
-- Doc APi Routes
-- [ ] [x] riot-account-v1
-- [ ] [x] lol-champion-mastery-v4
-- [ ] [ ] lol-champion-v3
-- [ ] [ ] lol-clash-v1
-- [ ] [ ] lol-league-exp-v4
-- [ ] [x] lol-league-v4
-- [ ] [ ] []lol-status-v3
-- [ ] [x] lor-match-v1
-- [ ] [x] lor-ranked-v1
-- [ ] [ ] [ ] lol-match-v4
-- [ ] [x] lol-spectator-v4
-- [ ] [x] lol-summoner-v4
-- [ ] [x] tft-league-v1
-- [ ] [x] tft-match-v1
-- [ ] [x] tft-summoner-v1
-- [ ] [ ] lol-third-party-code-v4
-- [ ] [ ] lol-tournament-stub-v4
-- [ ] [ ] lol-tournament-v4
-- [ ] [x] val-content-v1
-- [ ] [ ] val-match-v1 (No access yet :disappointed_relieved:)
+- [x] riot-account-v1
+  - [ ] documentation
+- [x] lol-champion-mastery-v4
+  - [ ] documentation
+- [ ] lol-champion-v3
+  - [ ] documentation
+- [ ] lol-clash-v1
+  - [ ] documentation
+- [ ] lol-league-exp-v4
+  - [ ] documentation
+- [x] lol-league-v4
+  - [ ] documentation
+- [ ] lol-status-v3
+  - [ ] documentation
+- [x] lor-match-v1
+  - [ ] documentation
+- [x] lor-ranked-v1
+  - [ ] documentation
+- [ ] lol-match-v4
+  - [ ] documentation
+- [x] lol-spectator-v4
+  - [ ] documentation
+- [x] lol-summoner-v4
+  - [ ] documentation
+- [x] tft-league-v1
+  - [ ] documentation
+- [x] tft-match-v1
+  - [ ] documentation
+- [x] tft-summoner-v1
+  - [ ] documentation
+- [ ] lol-third-party-code-v4
+  - [ ] documentation
+- [ ] lol-tournament-stub-v4
+  - [ ] documentation
+- [ ] lol-tournament-v4
+  - [ ] documentation
+- [x] val-content-v1
+  - [ ] documentation
+- [ ] val-match-v1 (No access yet :disappointed_relieved:)
+  - [ ] documentation
 
 # **🎮League of Legends🎮**
 
