@@ -39,6 +39,10 @@ const League = function League(region, apikey) {
     );
     return data;
   };
+  this.leaguesByName = async(SN) => {
+    const response = await Summoner.summonerByName(SN);
+    console.log(response);
+}
 };
 
 module.exports = League;
