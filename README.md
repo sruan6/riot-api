@@ -14,7 +14,7 @@ Get the api key from [Riot!](https://developer.riotgames.com/)
 - [ ] lol-champion-v3
 - [ ] lol-clash-v1
 - [ ] lol-league-exp-v4
-- [ ] lol-league-v4
+- [x] lol-league-v4
 - [ ] lol-status-v3
 - [x] lor-match-v1
 - [x] lor-ranked-v1
