@@ -33,14 +33,14 @@ const League = function League(region, apikey) {
         return data;
     };
     this.grandmasterByQueue = async (Queue) => {
-        console.log("Axios failing?")
         const {data} = await axios.get(
             "https://na1.api.riotgames.com/lol/league/v4/masterleagues/by-queue/RANKED_SOLO_5x5?api_key=RGAPI-bbca3b7c-a565-4cbb-a517-f3c751fd1934"
         );
         return data;
     };
+
+
 };
 
-            // `https://${region[0]}/lol/league/v4/masterleagues/by-queue/${Queue}?api_key=${apikey}`
 module.exports = League;
 
