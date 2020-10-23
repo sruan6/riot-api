@@ -41,5 +41,4 @@ const League = function League(region, apikey) {
   };
 };
 
-// `https://${region[0]}/lol/league/v4/masterleagues/by-queue/${Queue}?api_key=${apikey}`
 module.exports = League;
