@@ -2,6 +2,7 @@ const region = require('../lib/utils/utilies');
 const Summoner = require('./summonerV4');
 const Spectator = require('./spectatorV4');
 const ChampionMastery = require('./champion_masteryV4');
+const League = require('./leagueV4');
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);
@@ -12,6 +13,7 @@ const lolapi = function lolapi(key) {
     this.region,
     this.apikey,
   );
+  this.League = new League(this.region, this.apikey);
 };
 
 module.exports = lolapi;
