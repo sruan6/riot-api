@@ -15,9 +15,11 @@ Get the api key from [Riot!](https://developer.riotgames.com/)
   - [x] /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}
   - [x] /riot/account/v1/active-shards/by-game/{game}/by-puuid/{puuid}
 - [x] lol-champion-mastery-v4
-  - [ ] documentation
+  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}
+  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}
+  - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
 - [ ] lol-champion-v3
-  - [ ] documentation
+  - [ ] /lol/platform/v3/champion-rotations
 - [ ] lol-clash-v1
   - [ ] documentation
 - [ ] lol-league-exp-v4
