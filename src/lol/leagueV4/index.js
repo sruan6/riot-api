@@ -34,7 +34,7 @@ const League = function League(region, apikey) {
     );
     return data;
   };
-  this.grandmasterByQueue = async (Queue) => {
+  this.masterByQueue = async (Queue) => {
     const { data } = await axios.get(
       `https://${region[0]}/lol/league/v4/masterleagues/by-queue/${Queue}?api_key=${apikey}`,
     );
