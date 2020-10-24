@@ -1,5 +1,5 @@
 {
-  "name": "riot-api",
+  "name": "@sruan6/riotgames-api",
   "version": "1.0.0",
   "description": "Riot Api Wrapper",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ruan060606/riot-api.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "riot",
@@ -24,17 +27,9 @@
     "val",
     "runeterra"
   ],
-  "author": {
-    "name": "Sruan6",
-    "email": "ruan060695@gmail.com",
-    "url": "https://github.com/Sruan6/"
-  },
+  "author": "Sruan6 <ruan060695@gmail.com> (https://github.com/Sruan6/)",
   "contributors": [
-    {
-      "name": "Sruan6",
-      "email": "ruan060695@gmail.com",
-      "url": "https://github.com/Sruan6/"
-    }
+    "Sruan6 <ruan060695@gmail.com> (https://github.com/Sruan6/)"
   ],
   "license": "ISC",
   "bugs": {
@@ -56,5 +51,8 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "mocha": "^8.2.0",
     "prettier": "2.1.2"
+  },
+  "directories": {
+    "example": "example"
   }
 }
