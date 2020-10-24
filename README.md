@@ -14,6 +14,7 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 <p align="center"><h2>regions</h2></p>
 <br>
 
+<div align="center">
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
 | :------: | :--------------------: | :------: | :------------------------: |
 |    BR    | br1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
@@ -27,6 +28,7 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 |   OCE    | oc1.api.riotgames.com  | AMERICAS | americas.api.riotgames.com |
 |    TR    | tr1.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 |    RU    |  ru.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
+</div>
 
 # Examples
 
