@@ -22,7 +22,8 @@
     "lor",
     "lol",
     "val",
-    "runeterra"
+    "runeterra",
+    "riotgames"
   ],
   "author": "Sruan6 <ruan060695@gmail.com> (https://github.com/Sruan6/)",
   "contributors": [
@@ -34,7 +35,7 @@
     "url": "https://github.com/ruan060606/riot-api/issues",
     "email": "ruan060695@gmail.com"
   },
-  "homepage": "https://github.com/ruan060606/riot-api#readme",
+  "homepage": "https://github.com/ruan060606/riot-api",
   "dependencies": {
     "axios": "^0.20.0"
   },
