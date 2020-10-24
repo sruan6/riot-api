@@ -5,7 +5,8 @@ const ChampionMastery = require('./champion_masteryV4');
 const League = require('./leagueV4');
 const LeagueEXP = require('./leagueEXPV4');
 const Status = require('./statusV4');
-const Champion = require('./champion');
+const Champion = require('./championV3');
+const Clash = require('./clashV1');
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);
@@ -20,6 +21,7 @@ const lolapi = function lolapi(key) {
   this.LeagueEXP = new LeagueEXP(this.region, this.apikey);
   this.Status = new Status(this.region, this.apikey);
   this.Champion = new Champion(this.region, this.apikey);
+  this.Clash = new Clash(this.region, this.apikey);
 };
 
 module.exports = lolapi;
