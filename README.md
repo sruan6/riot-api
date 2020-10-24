@@ -11,7 +11,7 @@ Install npm package
 Then get api key here [Riot!](https://developer.riotgames.com/)
 <br>
 
-<h2 style="text-align:center">regions<h2>
+<h2 style="text-align:center">regions</h2>
 <br>
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
