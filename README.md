@@ -98,11 +98,11 @@ Report any bug or improvements! Willing to take suggesting too!
   - [ ] /lol/platform/v3/champion-rotations
 - [ ] lol-clash-v1
   - [ ] documentation
-- [ ] lol-league-exp-v4
+- [x] lol-league-exp-v4
   - [ ] documentation
 - [x] lol-league-v4
   - [ ] documentation
-- [ ] lol-status-v3
+- [x] lol-status-v3
   - [ ] documentation
 - [x] lor-match-v1
   - [ ] documentation
