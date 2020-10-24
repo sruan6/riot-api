@@ -8,6 +8,7 @@ const Status = require('./statusV4');
 const Champion = require('./championV3');
 const Clash = require('./clashV1');
 const Match = require('./matchV4');
+const TournamentStub = require('./tournament_stubV4');
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);
@@ -24,6 +25,7 @@ const lolapi = function lolapi(key) {
   this.Champion = new Champion(this.region, this.apikey);
   this.Clash = new Clash(this.region, this.apikey);
   this.Match = new Match(this.region, this.apikey);
+  this.TournamentStub = new TournamentStub(this.region, this.apikey);
 };
 
 module.exports = lolapi;
