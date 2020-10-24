@@ -1,5 +1,6 @@
 # riotgames-api
 
+<img src="https://www.npmjs.com/package/riotgames-gg">
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
 # Installation

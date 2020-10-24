@@ -27,8 +27,16 @@
   ],
   "author": "Sruan6 <ruan060695@gmail.com> (https://github.com/Sruan6/)",
   "contributors": [
-    "Sruan6 <ruan060695@gmail.com> (https://github.com/Sruan6/)",
-    "davidhuytran <davidhuytran@live.com> (https://github.com/davidhuytran)"
+    {
+      "name": "Sruan6",
+      "email": "ruan060695@gmail.com",
+      "url": "https://github.com/Sruan6/"
+    },
+    {
+      "name": "davidhuytran",
+      "email": "davidhuytran@live.com",
+      "url": "https://github.com/davidhuytran/"
+    }
   ],
   "license": "ISC",
   "bugs": {
