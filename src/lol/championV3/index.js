@@ -4,7 +4,7 @@ const axios = require('axios');
 const Champion = function Champion(region, apikey) {
   this.championRotations = async () => {
     const { data } = await axios.get(
-      `https://${region}/lol/platform/v3/champion-rotations?api_key=${apikey}`,
+      `https://${region[0]}/lol/platform/v3/champion-rotations?api_key=${apikey}`,
     );
     return data;
   };

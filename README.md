@@ -1,6 +1,8 @@
-# riotgames-api
+# riotgames-gg
 
 <img src="https://nodei.co/npm/riotgames-gg.png?downloads=true&downloadRank=true&stars=true">
+<a href="https://nodei.co/npm/riotgames-gg/"><img src="https://nodei.co/npm/riotgames-gg.png?downloads=true&downloadRank=true&stars=true"></a>
+[![NPM](https://nodei.co/npm/riotgames-gg.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/riotgames-gg/)
 <img src="https://img.shields.io/npm/v/riotgames-gg?label=NPM">
 <img src="https://img.shields.io/npm/l/riotgames-gg?label=License">
 <img src="https://img.shields.io/npm/dt/riotgames-gg?label=Downloads">
