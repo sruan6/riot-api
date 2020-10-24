@@ -173,7 +173,7 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /tft/summoner/v1/summoners/{encryptedSummonerId}
 - [ ] lol-third-party-code-v4
   - [ ] /lol/platform/v4/third-party-code/by-summoner/{encryptedSummonerId}
-- [ ] lol-tournament-stub-v4
+- [x] lol-tournament-stub-v4
   - [ ] /lol/tournament-stub/v4/codes
   - [ ] /lol/tournament-stub/v4/lobby-events/by-code/{tournamentCode}
   - [ ] /lol/tournament-stub/v4/providers
