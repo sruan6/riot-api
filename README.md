@@ -1,19 +1,21 @@
-# riot-api
+# riotgames-api
 
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
 # Installation
 
 Install npm package
+<br>
 `npm install riot-api --save`
+<br>
 Then get api key here [Riot!](https://developer.riotgames.com/)
 
-# Eamples
+# Examples
 
 # **🎮League of Legends🎮**
 
 ```javascript
-const { Lol } = require('riot-api');
+const { Lol } = require('riotgames-api');
 
 const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
 const summonerName = 'Hide on Bush';
@@ -29,7 +31,7 @@ getLolSummonerByName(summonerName);
 - lol.
   - [Summoner.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/summoner_example)
     - [summonerByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
-    - [summonerByAccId(accountId)](<(https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)>)
+    - [summonerByAccId(accountId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
     -
   - Specator.
   - ChampionMastery.
@@ -37,7 +39,7 @@ getLolSummonerByName(summonerName);
 # **🎮TeamFight Tactics🎮**
 
 ```javascript
-const { Tft } = require('riot-api');
+const { Tft } = require('riotgames-api');
 
 const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
 const summonerName = 'Giuttony';
@@ -58,7 +60,7 @@ getTftSummonerByName(summonerName);
 # **🎮Legends of Runeterra🎮**
 
 ```javascript
-const { Lor } = require('riot-api');
+const { Lor } = require('riotgames-api');
 
 const lor = new lor({ region: 'NA', apikey: 'YOUR API KEY' });
 // Get League Of Legends Summoner Info By Name
