@@ -1,6 +1,6 @@
 {
   "name": "@sruan6/riotgames-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Riot Api Wrapper",
   "main": "index.js",
   "scripts": {
