@@ -2,11 +2,85 @@
 
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
-# How to get started
+# Installation
 
+Install npm package
 `npm install riot-api --save`
+Then get api key here [Riot!](https://developer.riotgames.com/)
 
-Get the api key from [Riot!](https://developer.riotgames.com/)
+# Eamples
+
+# **🎮League of Legends🎮**
+
+```javascript
+const { Lol } = require('riot-api');
+
+const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
+const summonerName = 'Hide on Bush';
+// Get League Of Legends Summoner Info By Name
+async function getLolSummonerByName(name) {
+  const response = await lol.Summoner.summonerByName(name);
+  console.log(response);
+}
+
+getLolSummonerByName(summonerName);
+```
+
+- lol.
+  - [Summoner.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/summoner_example)
+    - [summonerByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
+    - [summonerByAccId(accountId)](<(https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)>)
+    -
+  - Specator.
+  - ChampionMastery.
+
+# **🎮TeamFight Tactics🎮**
+
+```javascript
+const { Tft } = require('riot-api');
+
+const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
+const summonerName = 'Giuttony';
+// Get League Of Legends Summoner Info By Name
+async function getTftSummonerByName(name) {
+  const response = await tft.Summoner.summonerByName(name);
+  console.log(response);
+}
+
+getTftSummonerByName(summonerName);
+```
+
+- tft.
+  - Summoner.
+  - Match.
+  - League.
+
+# **🎮Legends of Runeterra🎮**
+
+```javascript
+const { Lor } = require('riot-api');
+
+const lor = new lor({ region: 'NA', apikey: 'YOUR API KEY' });
+// Get League Of Legends Summoner Info By Name
+async function getLorRanked() {
+  const response = await lor.Ranked.leaderboards();
+  console.log(response);
+}
+
+getLorRanked();
+```
+
+- lor.
+  - Ranked.
+  - Match.
+
+# Contributing
+
+If you want to join and help out. Message me and I can add you to the team! Always willing to get more help to evolve and make it better!
+
+# Issues
+
+Report any bug or improvements! Willing to take suggesting too!
 
 ### List of api to finish
 
@@ -54,68 +128,6 @@ Get the api key from [Riot!](https://developer.riotgames.com/)
   - [ ] documentation
 - [ ] val-match-v1 (No access yet :disappointed_relieved:)
   - [ ] documentation
-
-# **🎮League of Legends🎮**
-
-```javascript
-const { Lol } = require('riot-api');
-
-const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
-const summonerName = 'Hide on Bush';
-// Get League Of Legends Summoner Info By Name
-async function getLolSummonerByName(name) {
-  const response = await lol.Summoner.summonerByName(name);
-  console.log(response);
-}
-
-getLolSummonerByName(summonerName);
-```
-
-- lol.
-  - Summoner.
-    - summonerByName(summonerName)
-  - Specator.
-  - ChampionMastery.
-
-# **🎮TeamFight Tactics🎮**
-
-```javascript
-const { Tft } = require('riot-api');
-
-const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
-const summonerName = 'Giuttony';
-// Get League Of Legends Summoner Info By Name
-async function getTftSummonerByName(name) {
-  const response = await tft.Summoner.summonerByName(name);
-  console.log(response);
-}
-
-getTftSummonerByName(summonerName);
-```
-
-- tft.
-  - Summoner.
-  - Match.
-  - League.
-
-# **🎮Legends of Runeterra🎮**
-
-```javascript
-const { Lor } = require('riot-api');
-
-const lor = new lor({ region: 'NA', apikey: 'YOUR API KEY' });
-// Get League Of Legends Summoner Info By Name
-async function getLorRanked() {
-  const response = await lor.Ranked.leaderboards();
-  console.log(response);
-}
-
-getLorRanked();
-```
-
-- lor.
-  - Ranked.
-  - Match.
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
 | :------: | :--------------------: | :------: | :------------------------: |
