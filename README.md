@@ -142,7 +142,7 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /lor/match/v1/matches/{matchId}
 - [x] lor-ranked-v1
   - [x] /lor/ranked/v1/leaderboards
-- [ ] lol-match-v4
+- [x] lol-match-v4
   - [ ] /lol/match/v4/matches/{matchId}
   - [ ] /lol/match/v4/matchlists/by-account/{encryptedAccountId}
   - [ ] /lol/match/v4/timelines/by-match/{matchId}
