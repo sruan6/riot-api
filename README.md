@@ -30,7 +30,7 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 
 <h1 align="center">Example</h1>
 
-# **🎮League of Legends🎮**
+<h1 align="center">🎮<b>League of Legends</b>🎮</h1>
 
 ```javascript
 const { Lol } = require('riotgames-api');
@@ -46,15 +46,21 @@ async function getLolSummonerByName(name) {
 getLolSummonerByName(summonerName);
 ```
 
-- lol.
+<h6>List of League Of Legends functions</h6>
+
+- [lol.](https://github.com/sruan6/riot-api/tree/main/src/lol)
+  - [Champion.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_example)
+    - [championRotations()](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_example/sample.js)
   - [Summoner.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/summoner_example)
     - [summonerByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
     - [summonerByAccId(accountId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
-    -
-  - Specator.
-  - ChampionMastery.
+    - [summonerByPuuid(puuid)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
+    - [summonerById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
+  - [Specator.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/spectator_example)
+  - [ChampionMastery.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_mastery_example)
+    - [ChampionMasteryById(id)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_mastery_example/sample.js)
 
-# **🎮TeamFight Tactics🎮**
+<h1 align="center">🎮<b>TeamFight Tactics</b>🎮</h1>
 
 ```javascript
 const { Tft } = require('riotgames-api');
@@ -75,7 +81,7 @@ getTftSummonerByName(summonerName);
   - Match.
   - League.
 
-# **🎮Legends of Runeterra🎮**
+<h1 align="center">🎮<b>Legends of Runeterra</b>🎮</h1>
 
 ```javascript
 const { Lor } = require('riotgames-api');
@@ -180,9 +186,11 @@ Report any bug or improvements! Willing to take suggesting too!
   - [ ] /lol/tournament/v4/providers
   - [ ] /lol/tournament/v4/tournaments
 - [x] val-content-v1
-  - [ ] documentation
-- [ ] val-match-v1 (No access yet :disappointed_relieved:)
-  - [ ] documentation
+  - [x] /val/content/v1/contents
+- [x] val-match-v1 (early access key only :disappointed_relieved:)
+  - [x] /val/match/v1/matches/{matchId}
+  - [x] /val/match/v1/matchlists/by-puuid/{puuid}
+  - [x] /val/match/v1/recent-matches/by-queue/{queue}
 
 ### Future updates
 
