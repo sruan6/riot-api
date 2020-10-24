@@ -2,58 +2,13 @@
 
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
-# How to get started
+# Installation
 
+Install npm package
 `npm install riot-api --save`
+Then get api key here [Riot!](https://developer.riotgames.com/)
 
-Get the api key from [Riot!](https://developer.riotgames.com/)
-
-### List of api to finish
-
-- [x] riot-account-v1
-  - [x] /riot/account/v1/accounts/by-puuid/{puuid}
-  - [x] /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}
-  - [x] /riot/account/v1/active-shards/by-game/{game}/by-puuid/{puuid}
-- [x] lol-champion-mastery-v4
-  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}
-  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}
-  - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
-- [ ] lol-champion-v3
-  - [ ] /lol/platform/v3/champion-rotations
-- [ ] lol-clash-v1
-  - [ ] documentation
-- [ ] lol-league-exp-v4
-  - [ ] documentation
-- [x] lol-league-v4
-  - [ ] documentation
-- [ ] lol-status-v3
-  - [ ] documentation
-- [x] lor-match-v1
-  - [ ] documentation
-- [x] lor-ranked-v1
-  - [ ] documentation
-- [ ] lol-match-v4
-  - [ ] documentation
-- [x] lol-spectator-v4
-  - [ ] documentation
-- [x] lol-summoner-v4
-  - [ ] documentation
-- [x] tft-league-v1
-  - [ ] documentation
-- [x] tft-match-v1
-  - [ ] documentation
-- [x] tft-summoner-v1
-  - [ ] documentation
-- [ ] lol-third-party-code-v4
-  - [ ] documentation
-- [ ] lol-tournament-stub-v4
-  - [ ] documentation
-- [ ] lol-tournament-v4
-  - [ ] documentation
-- [x] val-content-v1
-  - [ ] documentation
-- [ ] val-match-v1 (No access yet :disappointed_relieved:)
-  - [ ] documentation
+# Eample
 
 # **🎮League of Legends🎮**
 
@@ -112,6 +67,62 @@ async function getLorRanked() {
 
 getLorRanked();
 ```
+
+# Contributing
+
+If you want to join and help out. Message me and I can add you to the team! Always willing to get more help to evolve and make it better!
+
+# Issues
+
+Report any bug or improvements! Willing to take suggesting too!
+
+### List of api to finish
+
+- [x] riot-account-v1
+  - [x] /riot/account/v1/accounts/by-puuid/{puuid}
+  - [x] /riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}
+  - [x] /riot/account/v1/active-shards/by-game/{game}/by-puuid/{puuid}
+- [x] lol-champion-mastery-v4
+  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}
+  - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}
+  - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
+- [ ] lol-champion-v3
+  - [ ] /lol/platform/v3/champion-rotations
+- [ ] lol-clash-v1
+  - [ ] documentation
+- [ ] lol-league-exp-v4
+  - [ ] documentation
+- [x] lol-league-v4
+  - [ ] documentation
+- [ ] lol-status-v3
+  - [ ] documentation
+- [x] lor-match-v1
+  - [ ] documentation
+- [x] lor-ranked-v1
+  - [ ] documentation
+- [ ] lol-match-v4
+  - [ ] documentation
+- [x] lol-spectator-v4
+  - [ ] documentation
+- [x] lol-summoner-v4
+  - [ ] documentation
+- [x] tft-league-v1
+  - [ ] documentation
+- [x] tft-match-v1
+  - [ ] documentation
+- [x] tft-summoner-v1
+  - [ ] documentation
+- [ ] lol-third-party-code-v4
+  - [ ] documentation
+- [ ] lol-tournament-stub-v4
+  - [ ] documentation
+- [ ] lol-tournament-v4
+  - [ ] documentation
+- [x] val-content-v1
+  - [ ] documentation
+- [ ] val-match-v1 (No access yet :disappointed_relieved:)
+
+  - [ ] documentation
 
 - lor.
   - Ranked.
