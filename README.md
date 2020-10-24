@@ -11,7 +11,7 @@ Install npm package
 Then get api key here [Riot!](https://developer.riotgames.com/)
 <br>
 
-<h1 align="center"> regions </h1>
+<h1 align="center">region</h1>
 <br>
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
@@ -28,7 +28,7 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 |    TR    | tr1.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 |    RU    |  ru.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 
-# Examples
+<h1 align="center">Example</h1>
 
 # **🎮League of Legends🎮**
 
