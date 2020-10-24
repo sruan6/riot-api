@@ -1,7 +1,6 @@
 const axios = require('axios');
 
 // LEAGUE EXP-V4
-
 const LeagueEXP = function LeagueEXP(region, apikey) {
   this.entriesByQueueRank = async (Queue, Tier, Division, Page) => {
     const { data } = await axios.get(

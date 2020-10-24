@@ -94,7 +94,7 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}
   - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}
   - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
-- [ ] lol-champion-v3
+- [x] lol-champion-v3
   - [ ] /lol/platform/v3/champion-rotations
 - [ ] lol-clash-v1
   - [ ] /lol/clash/v1/players/by-summoner/{summonerId}
