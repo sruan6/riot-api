@@ -4,6 +4,7 @@ const Spectator = require('./spectatorV4');
 const ChampionMastery = require('./champion_masteryV4');
 const League = require('./leagueV4');
 const LeagueEXP = require('./leagueEXPV4')
+const Status = require("./statusV4");
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);
@@ -16,6 +17,7 @@ const lolapi = function lolapi(key) {
   );
   this.League = new League(this.region, this.apikey);
   this.LeagueEXP = new LeagueEXP(this.region, this.apikey);
+  this.Status = new Status(this.region, this.apikey);
 };
 
 module.exports = lolapi;
