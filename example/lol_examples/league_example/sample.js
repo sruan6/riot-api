@@ -2,11 +2,11 @@ const { Lol } = require('../../..');
 
 const lol = new Lol({region: 'NA', apikey: 'YOUR API KEY'});
 const summonerName = "Summoner Name";
-const queue = "queue";
+const queue = "Queue";
 const accId = "Acc Id";
 const tier = "Tier";
 const division = "Divison";
-const page = "Page Number";
+const page = "Page";
 const leagueId = "League Id";
 
 const getChallengerByQueue = (queue) => {
