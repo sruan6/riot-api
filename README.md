@@ -143,11 +143,11 @@ Report any bug or improvements! Willing to take suggesting too!
 - [x] lor-ranked-v1
   - [x] /lor/ranked/v1/leaderboards
 - [x] lol-match-v4
-  - [ ] /lol/match/v4/matches/{matchId}
-  - [ ] /lol/match/v4/matchlists/by-account/{encryptedAccountId}
-  - [ ] /lol/match/v4/timelines/by-match/{matchId}
-  - [ ] /lol/match/v4/matches/by-tournament-code/{tournamentCode}/ids
-  - [ ] /lol/match/v4/matches/{matchId}/by-tournament-code/{tournamentCode}
+  - [x] /lol/match/v4/matches/{matchId}
+  - [x] /lol/match/v4/matchlists/by-account/{encryptedAccountId}
+  - [x] /lol/match/v4/timelines/by-match/{matchId}
+  - [x] /lol/match/v4/matches/by-tournament-code/{tournamentCode}/ids
+  - [x] /lol/match/v4/matches/{matchId}/by-tournament-code/{tournamentCode}
 - [x] lol-spectator-v4
   - [x] /lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}
   - [x] /lol/spectator/v4/featured-games
