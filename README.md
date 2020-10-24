@@ -1,8 +1,8 @@
-# riotgames-api
+<p align="center"><h2>riotgames-api</h2></p>
 
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
-# Installation
+<p align="center"><h2>Installation</h2></p>
 
 Install npm package
 <br>
@@ -11,7 +11,7 @@ Install npm package
 Then get api key here [Riot!](https://developer.riotgames.com/)
 <br>
 
-<h2 align="center">regions</h2>
+<p align="center"><h2>regions</h2></p>
 <br>
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
