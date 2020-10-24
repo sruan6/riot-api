@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/ruan060606/riot-api.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "keywords": [
     "riot",
     "games",
