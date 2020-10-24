@@ -128,25 +128,25 @@ Report any bug or improvements! Willing to take suggesting too!
   - [ ] /lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}
   - [ ] /lol/spectator/v4/featured-games
 - [x] lol-summoner-v4
-  - [ ] /lol/summoner/v4/summoners/by-account/{encryptedAccountId}
-  - [ ] /lol/summoner/v4/summoners/by-name/{summonerName}
-  - [ ] /lol/summoner/v4/summoners/by-puuid/{encryptedPUUID}
-  - [ ] /lol/summoner/v4/summoners/{encryptedSummonerId}
+  - [x] /lol/summoner/v4/summoners/by-account/{encryptedAccountId}
+  - [x] /lol/summoner/v4/summoners/by-name/{summonerName}
+  - [x] /lol/summoner/v4/summoners/by-puuid/{encryptedPUUID}
+  - [x] /lol/summoner/v4/summoners/{encryptedSummonerId}
 - [x] tft-league-v1
-  - [ ] /tft/league/v1/challenger
-  - [ ] /tft/league/v1/entries/by-summoner/{encryptedSummonerId}
-  - [ ] /tft/league/v1/entries/{tier}/{division}
-  - [ ] /tft/league/v1/grandmaster
-  - [ ] /tft/league/v1/leagues/{leagueId}
-  - [ ] /tft/league/v1/master
+  - [x] /tft/league/v1/challenger
+  - [x] /tft/league/v1/entries/by-summoner/{encryptedSummonerId}
+  - [x] /tft/league/v1/entries/{tier}/{division}
+  - [x] /tft/league/v1/grandmaster
+  - [x] /tft/league/v1/leagues/{leagueId}
+  - [x] /tft/league/v1/master
 - [x] tft-match-v1
-  - [ ] /tft/match/v1/matches/by-puuid/{puuid}/ids
-  - [ ] /tft/match/v1/matches/{matchId}
+  - [x] /tft/match/v1/matches/by-puuid/{puuid}/ids
+  - [x] /tft/match/v1/matches/{matchId}
 - [x] tft-summoner-v1
-  - [ ] /tft/summoner/v1/summoners/by-account/{encryptedAccountId}
-  - [ ] /tft/summoner/v1/summoners/by-name/{summonerName}
-  - [ ] /tft/summoner/v1/summoners/by-puuid/{encryptedPUUID}
-  - [ ] /tft/summoner/v1/summoners/{encryptedSummonerId}
+  - [x] /tft/summoner/v1/summoners/by-account/{encryptedAccountId}
+  - [x] /tft/summoner/v1/summoners/by-name/{summonerName}
+  - [x] /tft/summoner/v1/summoners/by-puuid/{encryptedPUUID}
+  - [x] /tft/summoner/v1/summoners/{encryptedSummonerId}
 - [ ] lol-third-party-code-v4
   - [ ] /lol/platform/v4/third-party-code/by-summoner/{encryptedSummonerId}
 - [ ] lol-tournament-stub-v4
