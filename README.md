@@ -1,8 +1,10 @@
 # riotgames-api
 
+<img src="https://nodei.co/npm/riotgames-gg.png?downloads=true&downloadRank=true&stars=true">
 <img src="https://img.shields.io/npm/v/riotgames-gg?label=NPM">
 <img src="https://img.shields.io/npm/l/riotgames-gg?label=License">
 <img src="https://img.shields.io/npm/dt/riotgames-gg?label=Downloads">
+
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
 
 # Installation
