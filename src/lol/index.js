@@ -6,7 +6,7 @@ const League = require('./leagueV4');
 const LeagueEXP = require('./leagueEXPV4');
 const Status = require('./statusV4');
 const Champion = require('./championV3');
-const Clash = require('./clashV3');
+const Clash = require('./clashV1');
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);

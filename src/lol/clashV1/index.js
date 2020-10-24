@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-// CLASH-V3
+// CLASH-V1
 const Clash = function Clash(region, apikey) {
     this.playersByAccId = async (AccId) => {
         const {data} = await axios.get(

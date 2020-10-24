@@ -114,8 +114,8 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
 - [x] lol-champion-v3
   - [x] /lol/platform/v3/champion-rotations
-- [ ] lol-clash-v1
-  - [ ] /lol/clash/v1/players/by-summoner/{summonerId}
+- [x] lol-clash-v1
+  - [x] /lol/clash/v1/players/by-summoner/{summonerId}
   - [ ] /lol/clash/v1/teams/{teamId}
   - [ ] /lol/clash/v1/tournaments
   - [ ] /lol/clash/v1/tournaments/by-team/{teamId}
