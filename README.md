@@ -6,7 +6,7 @@ Hi this is just a wrapper for riot api. Everything was built using riot api rout
 
 Install npm package
 <br>
-`npm install riot-api --save`
+`npm install riotgames-gg --save`
 <br>
 Then get api key here [Riot!](https://developer.riotgames.com/)
 <br>
@@ -33,7 +33,7 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 <h1 align="center">🎮<b>League of Legends</b>🎮</h1>
 
 ```javascript
-const { Lol } = require('riotgames-api');
+const { Lol } = require('riotgames-gg');
 
 const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
 const summonerName = 'Hide on Bush';
@@ -63,7 +63,7 @@ getLolSummonerByName(summonerName);
 <h1 align="center">🎮<b>TeamFight Tactics</b>🎮</h1>
 
 ```javascript
-const { Tft } = require('riotgames-api');
+const { Tft } = require('riotgames-gg');
 
 const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
 const summonerName = 'Giuttony';
@@ -84,7 +84,7 @@ getTftSummonerByName(summonerName);
 <h1 align="center">🎮<b>Legends of Runeterra</b>🎮</h1>
 
 ```javascript
-const { Lor } = require('riotgames-api');
+const { Lor } = require('riotgames-gg');
 
 const lor = new lor({ region: 'NA', apikey: 'YOUR API KEY' });
 // Get League Of Legends Summoner Info By Name
