@@ -1,6 +1,6 @@
 const { Lol } = require('../../..');
 
-const lol = new Lol({ region: 'NA', apikey: 'RGAPI-b22af103-1609-4946-ae16-ed7ad97977d4' });
+const lol = new Lol({ region: 'NA', apikey: 'YOUR API KEY' });
 const matchId = "Match Id";
 const accId = "Acc Id";
 const champion = "champion id";
