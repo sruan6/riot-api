@@ -34,7 +34,7 @@ const League = function League(region, apikey) {
     );
     return data;
   };
-  this.grandmasterByQueue = async (Queue) => {
+  this.masterByQueue = async (Queue) => {
     const { data } = await axios.get(
       `https://${region[0]}/lol/league/v4/masterleagues/by-queue/${Queue}?api_key=${apikey}`,
     );
@@ -46,7 +46,9 @@ const League = function League(region, apikey) {
   // START HERE
   this.leaguesByName = async (SN) => {
     const summoner = await new Summoner(region, apikey);
-    const response = await summoner.summonerByName(SN);
+    const summonerId = (await summoner.summonerByName(SN)).id;
+    const leagueId = (await this.entriesByAccId(summonerId))[0].leagueId;
+    const response = await this.leaguesByLeagueId(leagueId);
     return response;
   };
 };
