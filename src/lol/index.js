@@ -3,9 +3,9 @@ const Summoner = require('./summonerV4');
 const Spectator = require('./spectatorV4');
 const ChampionMastery = require('./champion_masteryV4');
 const League = require('./leagueV4');
-const LeagueEXP = require('./leagueEXPV4')
-const Status = require("./statusV4");
-const Champion = require("./champion");
+const LeagueEXP = require('./leagueEXPV4');
+const Status = require('./statusV4');
+const Champion = require('./champion');
 
 const lolapi = function lolapi(key) {
   this.region = region(key.region);
