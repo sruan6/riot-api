@@ -8,7 +8,7 @@ Install npm package
 `npm install riot-api --save`
 Then get api key here [Riot!](https://developer.riotgames.com/)
 
-# Eample
+# Eamples
 
 # **🎮League of Legends🎮**
 
@@ -27,8 +27,10 @@ getLolSummonerByName(summonerName);
 ```
 
 - lol.
-  - Summoner.
-    - summonerByName(summonerName)
+  - [Summoner.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/summoner_example)
+    - [summonerByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
+    - [summonerByAccId(accountId)](<(https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)>)
+    -
   - Specator.
   - ChampionMastery.
 
@@ -67,6 +69,10 @@ async function getLorRanked() {
 
 getLorRanked();
 ```
+
+- lor.
+  - Ranked.
+  - Match.
 
 # Contributing
 
@@ -121,12 +127,7 @@ Report any bug or improvements! Willing to take suggesting too!
 - [x] val-content-v1
   - [ ] documentation
 - [ ] val-match-v1 (No access yet :disappointed_relieved:)
-
   - [ ] documentation
-
-- lor.
-  - Ranked.
-  - Match.
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
 | :------: | :--------------------: | :------: | :------------------------: |
