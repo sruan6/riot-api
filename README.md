@@ -116,10 +116,10 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /lol/platform/v3/champion-rotations
 - [x] lol-clash-v1
   - [x] /lol/clash/v1/players/by-summoner/{summonerId}
-  - [ ] /lol/clash/v1/teams/{teamId}
-  - [ ] /lol/clash/v1/tournaments
-  - [ ] /lol/clash/v1/tournaments/by-team/{teamId}
-  - [ ] /lol/clash/v1/tournaments/{tournamentId}
+  - [x] /lol/clash/v1/teams/{teamId}
+  - [x] /lol/clash/v1/tournaments
+  - [x] /lol/clash/v1/tournaments/by-team/{teamId}
+  - [x] /lol/clash/v1/tournaments/{tournamentId}
 - [x] lol-league-exp-v4
   - [x] /lol/league-exp/v4/entries/{queue}/{tier}/{division}
 - [x] lol-league-v4
