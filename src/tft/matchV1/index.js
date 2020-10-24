@@ -12,6 +12,4 @@ const Match = function Match(region, apikey) {
   };
 };
 
-
-
 module.exports = Match;
