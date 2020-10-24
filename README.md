@@ -97,35 +97,70 @@ Report any bug or improvements! Willing to take suggesting too!
 - [x] lol-champion-v3
   - [ ] /lol/platform/v3/champion-rotations
 - [ ] lol-clash-v1
-  - [ ] documentation
+  - [ ] /lol/clash/v1/players/by-summoner/{summonerId}
+  - [ ] /lol/clash/v1/teams/{teamId}
+  - [ ] /lol/clash/v1/tournaments
+  - [ ] /lol/clash/v1/tournaments/by-team/{teamId}
+  - [ ] /lol/clash/v1/tournaments/{tournamentId}
 - [x] lol-league-exp-v4
-  - [ ] documentation
+  - [x] /lol/league-exp/v4/entries/{queue}/{tier}/{division}
 - [x] lol-league-v4
-  - [ ] documentation
+  - [ ] /lol/league/v4/challengerleagues/by-queue/{queue}
+  - [ ] /lol/league/v4/entries/by-summoner/{encryptedSummonerId}
+  - [ ] /lol/league/v4/entries/{queue}/{tier}/{division}
+  - [ ] /lol/league/v4/grandmasterleagues/by-queue/{queue}
+  - [ ] /lol/league/v4/leagues/{leagueId}
+  - [ ] /lol/league/v4/masterleagues/by-queue/{queue}
 - [x] lol-status-v3
-  - [ ] documentation
+  - [ ] /lol/status/v3/shard-data
 - [x] lor-match-v1
-  - [ ] documentation
+  - [ ] /lor/match/v1/matches/by-puuid/{puuid}/ids
+  - [ ] /lor/match/v1/matches/{matchId}
 - [x] lor-ranked-v1
-  - [ ] documentation
+  - [ ] /lor/ranked/v1/leaderboards
 - [ ] lol-match-v4
-  - [ ] documentation
+  - [ ] /lol/match/v4/matches/{matchId}
+  - [ ] /lol/match/v4/matchlists/by-account/{encryptedAccountId}
+  - [ ] /lol/match/v4/timelines/by-match/{matchId}
+  - [ ] /lol/match/v4/matches/by-tournament-code/{tournamentCode}/ids
+  - [ ] /lol/match/v4/matches/{matchId}/by-tournament-code/{tournamentCode}
 - [x] lol-spectator-v4
-  - [ ] documentation
+  - [ ] /lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}
+  - [ ] /lol/spectator/v4/featured-games
 - [x] lol-summoner-v4
-  - [ ] documentation
+  - [ ] /lol/summoner/v4/summoners/by-account/{encryptedAccountId}
+  - [ ] /lol/summoner/v4/summoners/by-name/{summonerName}
+  - [ ] /lol/summoner/v4/summoners/by-puuid/{encryptedPUUID}
+  - [ ] /lol/summoner/v4/summoners/{encryptedSummonerId}
 - [x] tft-league-v1
-  - [ ] documentation
+  - [ ] /tft/league/v1/challenger
+  - [ ] /tft/league/v1/entries/by-summoner/{encryptedSummonerId}
+  - [ ] /tft/league/v1/entries/{tier}/{division}
+  - [ ] /tft/league/v1/grandmaster
+  - [ ] /tft/league/v1/leagues/{leagueId}
+  - [ ] /tft/league/v1/master
 - [x] tft-match-v1
-  - [ ] documentation
+  - [ ] /tft/match/v1/matches/by-puuid/{puuid}/ids
+  - [ ] /tft/match/v1/matches/{matchId}
 - [x] tft-summoner-v1
-  - [ ] documentation
+  - [ ] /tft/summoner/v1/summoners/by-account/{encryptedAccountId}
+  - [ ] /tft/summoner/v1/summoners/by-name/{summonerName}
+  - [ ] /tft/summoner/v1/summoners/by-puuid/{encryptedPUUID}
+  - [ ] /tft/summoner/v1/summoners/{encryptedSummonerId}
 - [ ] lol-third-party-code-v4
-  - [ ] documentation
+  - [ ] /lol/platform/v4/third-party-code/by-summoner/{encryptedSummonerId}
 - [ ] lol-tournament-stub-v4
-  - [ ] documentation
+  - [ ] /lol/tournament-stub/v4/codes
+  - [ ] /lol/tournament-stub/v4/lobby-events/by-code/{tournamentCode}
+  - [ ] /lol/tournament-stub/v4/providers
+  - [ ] /lol/tournament-stub/v4/tournaments
 - [ ] lol-tournament-v4
-  - [ ] documentation
+  - [ ] /lol/tournament/v4/codes
+  - [ ] /lol/tournament/v4/codes/{tournamentCode}
+  - [ ] /lol/tournament/v4/codes/{tournamentCode}
+  - [ ] /lol/tournament/v4/lobby-events/by-code/{tournamentCode}
+  - [ ] /lol/tournament/v4/providers
+  - [ ] /lol/tournament/v4/tournaments
 - [x] val-content-v1
   - [ ] documentation
 - [ ] val-match-v1 (No access yet :disappointed_relieved:)
