@@ -95,7 +95,7 @@ Report any bug or improvements! Willing to take suggesting too!
   - [x] /lol/champion-mastery/v4/champion-masteries/by-summoner/{encryptedSummonerId}/by-champion/{championId}
   - [x] /lol/champion-mastery/v4/scores/by-summoner/{encryptedSummonerId}
 - [x] lol-champion-v3
-  - [ ] /lol/platform/v3/champion-rotations
+  - [x] /lol/platform/v3/champion-rotations
 - [ ] lol-clash-v1
   - [ ] /lol/clash/v1/players/by-summoner/{summonerId}
   - [ ] /lol/clash/v1/teams/{teamId}
@@ -105,19 +105,19 @@ Report any bug or improvements! Willing to take suggesting too!
 - [x] lol-league-exp-v4
   - [x] /lol/league-exp/v4/entries/{queue}/{tier}/{division}
 - [x] lol-league-v4
-  - [ ] /lol/league/v4/challengerleagues/by-queue/{queue}
-  - [ ] /lol/league/v4/entries/by-summoner/{encryptedSummonerId}
-  - [ ] /lol/league/v4/entries/{queue}/{tier}/{division}
-  - [ ] /lol/league/v4/grandmasterleagues/by-queue/{queue}
-  - [ ] /lol/league/v4/leagues/{leagueId}
-  - [ ] /lol/league/v4/masterleagues/by-queue/{queue}
+  - [x] /lol/league/v4/challengerleagues/by-queue/{queue}
+  - [x] /lol/league/v4/entries/by-summoner/{encryptedSummonerId}
+  - [x] /lol/league/v4/entries/{queue}/{tier}/{division}
+  - [x] /lol/league/v4/grandmasterleagues/by-queue/{queue}
+  - [x] /lol/league/v4/leagues/{leagueId}
+  - [x] /lol/league/v4/masterleagues/by-queue/{queue}
 - [x] lol-status-v3
-  - [ ] /lol/status/v3/shard-data
+  - [x] /lol/status/v3/shard-data
 - [x] lor-match-v1
-  - [ ] /lor/match/v1/matches/by-puuid/{puuid}/ids
-  - [ ] /lor/match/v1/matches/{matchId}
+  - [x] /lor/match/v1/matches/by-puuid/{puuid}/ids
+  - [x] /lor/match/v1/matches/{matchId}
 - [x] lor-ranked-v1
-  - [ ] /lor/ranked/v1/leaderboards
+  - [x] /lor/ranked/v1/leaderboards
 - [ ] lol-match-v4
   - [ ] /lol/match/v4/matches/{matchId}
   - [ ] /lol/match/v4/matchlists/by-account/{encryptedAccountId}
@@ -125,8 +125,8 @@ Report any bug or improvements! Willing to take suggesting too!
   - [ ] /lol/match/v4/matches/by-tournament-code/{tournamentCode}/ids
   - [ ] /lol/match/v4/matches/{matchId}/by-tournament-code/{tournamentCode}
 - [x] lol-spectator-v4
-  - [ ] /lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}
-  - [ ] /lol/spectator/v4/featured-games
+  - [x] /lol/spectator/v4/active-games/by-summoner/{encryptedSummonerId}
+  - [x] /lol/spectator/v4/featured-games
 - [x] lol-summoner-v4
   - [x] /lol/summoner/v4/summoners/by-account/{encryptedAccountId}
   - [x] /lol/summoner/v4/summoners/by-name/{summonerName}
