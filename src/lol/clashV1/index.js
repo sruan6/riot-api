@@ -52,9 +52,11 @@ const Clash = function Clash(region, apikey) {
     return data;
   };
   this.tournamentsByTournamentId = async (tournamentId) => {
-      const {data}= await axios.get(`https://${region[0]}/lol/clash/v1/tournaments/${tournamentId}?api_key=${apikey}`)
-      return data
-  }
+    const { data } = await axios.get(
+      `https://${region[0]}/lol/clash/v1/tournaments/${tournamentId}?api_key=${apikey}`,
+    );
+    return data;
+  };
 };
 
 module.exports = Clash;
