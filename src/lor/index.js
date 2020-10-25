@@ -3,7 +3,11 @@ const Rank = require('./rankedV1');
 const Match = require('./matchV1');
 
 const LorApi = function LorApi(key) {
-  if (!key.apikey || '' || 'YOUR API KEY') {
+  if (
+    !key.apikey ||
+    key.apikey === '' ||
+    key.apikey === 'YOUR API KEY'
+  ) {
     // console.error('missing apikey');
     throw new Error('missing apikey');
   }

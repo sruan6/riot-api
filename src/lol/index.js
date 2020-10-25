@@ -13,7 +13,11 @@ const ThirdPartyCode = require('./third_party_codeV4');
 const Tournament = require('./tournamentV4');
 
 const lolapi = function lolapi(key) {
-  if (!key.apikey || '' || 'YOUR API KEY') {
+  if (
+    !key.apikey ||
+    key.apikey === '' ||
+    key.apikey === 'YOUR API KEY'
+  ) {
     // console.error('missing apikey');
     throw new Error('missing apikey');
   }

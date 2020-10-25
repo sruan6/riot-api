@@ -3,7 +3,11 @@ const Content = require('./contentV1');
 const Match = require('./matchV1');
 
 const Valapi = function Valapi(key) {
-  if (!key.apikey || '' || 'YOUR API KEY') {
+  if (
+    !key.apikey ||
+    key.apikey === '' ||
+    key.apikey === 'YOUR API KEY'
+  ) {
     // console.error('missing apikey');
     throw new Error('missing apikey');
   }

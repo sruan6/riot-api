@@ -6,17 +6,15 @@
 <img src="https://img.shields.io/npm/dt/riotgames-gg?label=Downloads">
 
 Hi this is just a wrapper for riot api. Everything was built using riot api routes to make life easier for you to make api calls to riot!
+This is new and if you experience something not working. Message me! Not Everything has sample demo yet. Still in working progress but the function works!
 
 # Installation
 
 `npm install riotgames-gg --save`
 <br>
-[APIKEY!](https://developer.riotgames.com/)
-<br>
+[API key here!](https://developer.riotgames.com/)
 
 # Region
-
-<br>
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
 | :------: | :--------------------: | :------: | :------------------------: |
@@ -34,6 +32,29 @@ Hi this is just a wrapper for riot api. Everything was built using riot api rout
 
 # Example
 
+# Riot
+
+```javascript
+const { Riot } = require('riotgames-gg');
+
+const riot = new Riot({ region: 'KR', apikey: 'YOUR API KEY' });
+
+async function accountsByPuuid(puuid)(name) {
+  const response = await riot.Account.accountsByPuuid(puuid);
+  console.log(response);
+}
+
+getLolSummonerByName(summonerName);
+```
+
+###### List of Riot functions
+
+- [riot.]
+  - [Account.]
+    - [accountsByPuuid(puuid)]
+    - [accountsByRiotId(gameName,tagLine)]
+    - [activeShards(game,puuid)]
+
 # League of Legends
 
 ```javascript
@@ -50,19 +71,65 @@ async function getLolSummonerByName(name) {
 getLolSummonerByName(summonerName);
 ```
 
-<h6>List of League Of Legends functions</h6>
+###### List of League Of Legends functions
 
 - [lol.](https://github.com/sruan6/riot-api/tree/main/src/lol)
   - [Champion.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_example)
     - [championRotations()](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_example/sample.js)
+  - [ChampionMastery.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_mastery_example)
+    - [ChampionMasteryById(id)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_mastery_example/sample.js)
+  - [Clash.]
+    - [playersById(summonerId)]
+    - [playersByAccId(accountId)]
+    - [playersByPuuid(puuid)]
+    - [playersByName(summonerName)]
+    - [teamsByTeamId(teamId)]
+    - [tournaments()]
+    - [tournamentsByTeam(teamId)]
+    - [tournamentsByTournamentId(tournamentId)]
+  - [LeagueExp.]
+    - [entriesByQueueRank(queue,tier,division,page)]
+  - [League.]
+    - [challengerByQueue(queue)]
+    - [entriesByAccId(accountId)]
+    - [entriesByQueueRank(queue,tier,division,page)]
+    - [grandmasterByQueue(queue)]
+    - [leaguesByLeagueId(leagueId)]
+    - [leaguesByName(summonerName)]
+    - [masterByQueue(queue)]
+  - [Match.]
+    - [matchByMatchId(matchId)]
+    - [matchListsByAccountId(accountId,champion,queue,season,endTime,beginTime,endIndex,beginIndex)]
+    - [timelinesByMatchId(matchId)]
+    - [matchByTournamentCode(tournamentCode)]
+    - [matchByMatchIdByTournamentCode)matchId,tournamentCode]
+  - [Spectator.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/spectator_example)
+    - [activeGamesById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/spectator_example/sample.js)
+    - [activeGamesByName(summonerName)]
+    - [activeGamesByPuuid(puuid)]
+    - [activeGamesByAccId(accountId)]
+    - [featureGames()]
+  - [Status.]
+    - [shardData()]
   - [Summoner.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/summoner_example)
     - [summonerByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
     - [summonerByAccId(accountId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
     - [summonerByPuuid(puuid)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
     - [summonerById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/summoner_example/sample.js)
-  - [Specator.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/spectator_example)
-  - [ChampionMastery.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_mastery_example)
-    - [ChampionMasteryById(id)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_mastery_example/sample.js)
+  - [ThirdPartyCode.]
+    - [thirdPartyCodeById()]
+  - [Tournament.]
+    - [codes()]
+    - [codesByTournamentCode()]
+    - [updateCodesByTournamentCode(tournamentCode)]
+    - [lobbyEventByTournamentCode(tournamentCode)]
+    - [providers()]
+    - [tournaments()]
+  - [TournamentStub.]
+    - [codes()]
+    - [lobbyEventByTournamentCode()]
+    - [providers()]
+    - [tournaments()]
 
 # TeamFight Tactics
 
@@ -80,10 +147,34 @@ async function getTftSummonerByName(name) {
 getTftSummonerByName(summonerName);
 ```
 
-- tft.
-  - Summoner.
-  - Match.
-  - League.
+###### List of TeamFight Tactics functions
+
+- [tft.]
+  - [League.]
+    - [challenger()]
+    - [entriesById(summonerId)]
+    - [entriesByAccId(accountId)]
+    - [entriesByPuuid(puuid)]
+    - [entriesByName(summonerName)]
+    - [entriesByTierDivision(tier,division)]
+    - [grandmaster()]
+    - [leaguesByLeagueId(leagueId)]
+    - [leaguesById(summonerId)]
+    - [leaguesByAccId(accountId)]
+    - [leaguesByPuuid(puuid)]
+    - [leaguesByName(summonerName)]
+    - [master()]
+  - [Match.]
+    - [matchesByPuuid(puuid,count)]
+    - [matchesByAccId(accountId,count)]
+    - [matchesById(summonerId,count)]
+    - [matchesByName(summonerName,count)]
+    - [matchesByMatchId(matchId)]
+  - [Summoner.]
+    - [summonerByName(summonerName)]
+    - [summonerByAccId(accountId)]
+    - [summonerByPuuid(puuid)]
+    - [summonerById(summonerId)]
 
 # Legends of Runeterra
 
@@ -100,9 +191,39 @@ async function getLorRanked() {
 getLorRanked();
 ```
 
-- lor.
-  - Ranked.
-  - Match.
+###### List of Legends of Runeterra functions
+
+- [lor.]
+  - [Match.]
+    - [matchesByPuuid(puuid)]
+    - [matchesByMatchId(matchId)]
+  - [Ranked.]
+    - [leaderboards()]
+
+# Valorant
+
+```javascript
+const { Val } = require('riotgames-gg');
+
+const val = new Val({ region: 'NA', apikey: 'YOUR API KEY' });
+
+async function getValContent() {
+  const response = await val.Content.contents();
+  console.log(response);
+}
+
+getLorRanked();
+```
+
+###### List of Valorant functions
+
+- [val.]
+  - [Content.]
+    - [contents()]
+  - [Match.]
+    - [matchesByMatchId(matchId)]
+    - [matchlistsByPuuid(puuid)]
+    - [recentMatchesByQueue(queue)]
 
 # Contributing
 

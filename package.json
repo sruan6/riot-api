@@ -1,6 +1,6 @@
 {
   "name": "riotgames-gg",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Riot Api Wrapper",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,7 @@
     "url": "https://github.com/sruan6/riot-api/issues",
     "email": "ruan060695@gmail.com"
   },
-  "homepage": "https://github.com/sruan6/riot-api",
+  "homepage": "https://github.com/sruan6/riot-api#readme",
   "dependencies": {
     "axios": "^0.20.0"
   },

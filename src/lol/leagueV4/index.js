@@ -46,8 +46,8 @@ const League = function League(region, apikey) {
   // START HERE
   this.leaguesByName = async (SN) => {
     const summoner = await new Summoner(region, apikey);
-    const summonerId = (await summoner.summonerByName(SN)).id;
-    const { leagueId } = (await this.entriesByAccId(summonerId))[0];
+    const { id } = await summoner.summonerByName(SN);
+    const { leagueId } = (await this.entriesByAccId(id))[0];
     const response = await this.leaguesByLeagueId(leagueId);
     return response;
   };

@@ -2,7 +2,11 @@ const region = require('../lib/utils/utilies');
 const Account = require('./accountV1');
 
 const Riotapi = function RiotAPi(key) {
-  if (!key.apikey || '' || 'YOUR API KEY') {
+  if (
+    !key.apikey ||
+    key.apikey === '' ||
+    key.apikey === 'YOUR API KEY'
+  ) {
     // console.error('missing apikey');
     throw new Error('missing apikey');
   }
