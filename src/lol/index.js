@@ -10,6 +10,7 @@ const Clash = require('./clashV1');
 const Match = require('./matchV4');
 const TournamentStub = require('./tournament_stubV4');
 const ThirdPartyCode = require('./third_party_codeV4');
+const Tournament = require('./tournamentV4');
 
 const lolapi = function lolapi(key) {
   if (!key.apikey || '' || 'YOUR API KEY') {
@@ -32,6 +33,7 @@ const lolapi = function lolapi(key) {
   this.Match = new Match(this.region, this.apikey);
   this.TournamentStub = new TournamentStub(this.region, this.apikey);
   this.ThirdPartyCode = new ThirdPartyCode(this.region, this.apikey);
+  this.Tournament = new Tournament(this.region, this.apikey);
 };
 
 module.exports = lolapi;
