@@ -12,6 +12,10 @@ const TournamentStub = require('./tournament_stubV4');
 const ThirdPartyCode = require('./third_party_codeV4');
 
 const lolapi = function lolapi(key) {
+  if (!key.apikey || '' || 'YOUR API KEY') {
+    // console.error('missing apikey');
+    throw new Error('missing apikey');
+  }
   this.region = region(key.region);
   this.apikey = key.apikey;
   this.Summoner = new Summoner(this.region, this.apikey);

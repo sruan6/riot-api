@@ -3,6 +3,10 @@ const Rank = require('./rankedV1');
 const Match = require('./matchV1');
 
 const LorApi = function LorApi(key) {
+  if (!key.apikey || '' || 'YOUR API KEY') {
+    // console.error('missing apikey');
+    throw new Error('missing apikey');
+  }
   this.region = region(key.region);
   this.apikey = key.apikey;
   this.Ranked = new Rank(this.region, this.apikey);

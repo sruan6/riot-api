@@ -14,32 +14,43 @@ const OC1 = 'oc1.api.riotgames.com';
 const TR1 = 'tr1.api.riotgames.com';
 const RU = 'ru.api.riotgames.com';
 
-function Region(val) {
-  let region;
-  if (val === 'BR') {
-    region = [BR1, america];
-  } else if (val === 'NA') {
-    region = [NA1, america];
-  } else if (val === 'EUN') {
-    region = [EUN1, europe];
-  } else if (val === 'EUW') {
-    region = [EUW1, europe];
-  } else if (val === 'JP') {
-    region = [JP1, asia];
-  } else if (val === 'KR') {
-    region = [KR, asia];
-  } else if (val === 'LAN') {
-    region = [LA1, america];
-  } else if (val === 'LAS') {
-    region = [LA2, america];
-  } else if (val === 'OCE') {
-    region = [OC1, america];
-  } else if (val === 'TR') {
-    region = [TR1, europe];
-  } else if (val === 'RU') {
-    region = [RU, europe];
+module.exports = (val) => {
+  if (val === undefined) {
+    return [NA1, america];
   }
-  return region;
-}
-
-module.exports = Region;
+  if (val === 'BR') {
+    return [BR1, america];
+  }
+  if (val === 'NA') {
+    return [NA1, america];
+  }
+  if (val === 'EUN') {
+    return [EUN1, europe];
+  }
+  if (val === 'EUW') {
+    return [EUW1, europe];
+  }
+  if (val === 'JP') {
+    return [JP1, asia];
+  }
+  if (val === 'KR') {
+    return [KR, asia];
+  }
+  if (val === 'LAN') {
+    return [LA1, america];
+  }
+  if (val === 'LAS') {
+    return [LA2, america];
+  }
+  if (val === 'OCE') {
+    return [OC1, america];
+  }
+  if (val === 'TR') {
+    return [TR1, europe];
+  }
+  if (val === 'RU') {
+    return [RU, europe];
+  }
+  // console.error(`region does not exist \n please use ${list}`);
+  throw new Error('region does not exist');
+};

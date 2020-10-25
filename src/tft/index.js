@@ -4,6 +4,10 @@ const Summoner = require('./summonerV1');
 const League = require('./leagueV1');
 
 const Tftapi = function Tftapi(key) {
+  if (!key.apikey || '' || 'YOUR API KEY') {
+    // console.error('missing apikey');
+    throw new Error('missing apikey');
+  }
   this.region = region(key.region);
   this.apikey = key.apikey;
   this.Summoner = new Summoner(this.region, this.apikey);

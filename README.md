@@ -11,14 +11,13 @@ Hi this is just a wrapper for riot api. Everything was built using riot api rout
 
 # Installation
 
-Install npm package
-<br>
 `npm install riotgames-gg --save`
 <br>
-Then get api key here [Riot!](https://developer.riotgames.com/)
+[APIKEY!](https://developer.riotgames.com/)
 <br>
 
-<h1 align="center">region</h1>
+# Region
+
 <br>
 
 | PLATFORM |     PLATFORM-HOST      |  REGION  |        REGION-HOST         |
@@ -35,9 +34,9 @@ Then get api key here [Riot!](https://developer.riotgames.com/)
 |    TR    | tr1.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 |    RU    |  ru.api.riotgames.com  |  EUROPE  |  europe.api.riotgames.com  |
 
-<h1 align="center">Example</h1>
+# Example
 
-<h1 align="center">🎮<b>League of Legends</b>🎮</h1>
+# League of Legends
 
 ```javascript
 const { Lol } = require('riotgames-gg');
@@ -67,7 +66,7 @@ getLolSummonerByName(summonerName);
   - [ChampionMastery.](https://github.com/sruan6/riot-api/tree/main/example/lol_examples/champion_mastery_example)
     - [ChampionMasteryById(id)](https://github.com/sruan6/riot-api/blob/main/example/lol_examples/champion_mastery_example/sample.js)
 
-<h1 align="center">🎮<b>TeamFight Tactics</b>🎮</h1>
+# TeamFight Tactics
 
 ```javascript
 const { Tft } = require('riotgames-gg');
@@ -88,7 +87,7 @@ getTftSummonerByName(summonerName);
   - Match.
   - League.
 
-<h1 align="center">🎮<b>Legends of Runeterra</b>🎮</h1>
+# Legends of Runeterra
 
 ```javascript
 const { Lor } = require('riotgames-gg');
@@ -114,14 +113,3 @@ If you want to join and help out. Message me and I can add you to the team! Alwa
 # Issues
 
 Report any bug or improvements! Willing to take suggesting too!
-
-### Future updates
-
-- [ ] ddragon for image
-- [ ] league of legend oauth
-
-### Thank You!
-
-<p align="center">
-<img width="460" height="300" src="https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif">
-</p>

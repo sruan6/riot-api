@@ -4,5 +4,6 @@
     "rules": {
       "prettier/prettier": ["error"],
       "no-console": "off"
-    }
+    },
+    "error": { "checkLoops": false }
 }
