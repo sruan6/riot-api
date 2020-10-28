@@ -1,6 +1,6 @@
 {
   "name": "riotgames-gg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Riot Api Wrapper",
   "main": "index.js",
   "scripts": {

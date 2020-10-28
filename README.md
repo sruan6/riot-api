@@ -78,15 +78,15 @@ getLolSummonerByName(summonerName);
     - [championRotations()](https://github.com/sruan6/riotgames=gg/blob/main/example/lol_examples/champion_example/sample.js)
   - [ChampionMastery.](https://github.com/sruan6/riotgames=gg/tree/main/example/lol_examples/champion_mastery_example)
     - [ChampionMasteryById(id)](https://github.com/sruan6/riotgames=gg/blob/main/example/lol_examples/champion_mastery_example/sample.js)
-  - [Clash.]
-    - [playersById(summonerId)]
-    - [playersByAccId(accountId)]
-    - [playersByPuuid(puuid)]
-    - [playersByName(summonerName)]
-    - [teamsByTeamId(teamId)]
-    - [tournaments()]
-    - [tournamentsByTeam(teamId)]
-    - [tournamentsByTournamentId(tournamentId)]
+  - [Clash.](https://github.com/sruan6/riotgames-gg/tree/main/example/lol_examples/clash_example)
+    - [playersById(summonerId)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/playersById.js)
+    - [playersByAccId(accountId)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/playersByAccId.js)
+    - [playersByPuuid(puuid)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/playersByPuuid.js)
+    - [playersByName(summonerName)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/playersByName.js)
+    - [teamsByTeamId(teamId)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/teamsByTeamId.js)
+    - [tournaments()](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/tournaments.js)
+    - [tournamentsByTeam(teamId)](https://github.com/sruan6/riotgames-gg/tree/main/example/lol_examples/clash_example)
+    - [tournamentsByTournamentId(tournamentId)](https://github.com/sruan6/riotgames-gg/blob/main/example/lol_examples/clash_example/tournamentsByTournamentId.js)
   - [LeagueExp.]
     - [entriesByQueueRank(queue,tier,division,page)]
   - [League.]
