@@ -149,7 +149,7 @@ getTftSummonerByName(summonerName);
 
 ###### List of TeamFight Tactics functions
 
-- [tft.]
+- [tft.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples)
   - [League.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples/league_example)
     - [challenger()](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/challenger.js)
     - [entriesById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entreiesById.js)
@@ -164,12 +164,12 @@ getTftSummonerByName(summonerName);
     - [leaguesByPuuid(puuid)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByPuuid.js)
     - [leaguesByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByName.js)
     - [master()](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/master.js)
-  - [Match.]
-    - [matchesByPuuid(puuid,count)]
-    - [matchesByAccId(accountId,count)]
-    - [matchesById(summonerId,count)]
-    - [matchesByName(summonerName,count)]
-    - [matchesByMatchId(matchId)]
+  - [Match.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples/match_example)
+    - [matchesByPuuid(puuid,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByPuuid.js)
+    - [matchesByAccId(accountId,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByAccId.js)
+    - [matchesById(summonerId,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesById.js)
+    - [matchesByName(summonerName,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByName.js)
+    - [matchesByMatchId(matchId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByMatchId.js)
   - [Summoner.]
     - [summonerByName(summonerName)]
     - [summonerByAccId(accountId)]
