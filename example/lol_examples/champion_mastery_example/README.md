@@ -1,24 +1,23 @@
 # **🎮League of Legends🎮**
 
 ```javascript
-const { Lol } = require('riot-api');
+const { Lol } = require('../../..');
 
 const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
-const summonerName = 'Hide on Bush';
+const summonerId = 'summoner id';
 
-// Get League Of Legends Summoner Info By Name
-function getLolSummonerByName(name) {
-  lol.Summoner.summonerByName(name).then((response) => {
+const getChampionMasteryById = (id) => {
+  lol.championMasteryById(id).then((response) => {
     console.log(response);
   });
-}
+};
 
 // Async
-async function getAsyncLolSummonerByName(name) {
-  const response = await lol.Summoner.summonerByName(name);
+const getAsyncChampionMasteryById = async (id) => {
+  const response = await lol.ChampionMastery.championMasteryById(id);
   console.log(response);
-}
+};
 
-getLolSummonerByName(summonerName);
-getAsyncLolSummonerByName(name);
+getChampionMasteryById(summonerId);
+getAsyncChampionMasteryById(summonerId);
 ```

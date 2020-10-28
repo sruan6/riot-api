@@ -51,6 +51,27 @@ const League = function League(region, apikey) {
     const response = await this.leaguesByLeagueId(leagueId);
     return response;
   };
+  this.leaguesByAccId = async (accId) => {
+    const summoner = await new Summoner(region, apikey);
+    const { id } = await summoner.summonerByAccId(accId);
+    const { leagueId } = (await this.entriesByAccId(id))[0];
+    const response = await this.leaguesByLeagueId(leagueId);
+    return response;
+  };
+  this.leaguesByPuuid = async (puuid) => {
+    const summoner = await new Summoner(region, apikey);
+    const { id } = await summoner.summonerByPuuid(puuid);
+    const { leagueId } = (await this.entriesByAccId(id))[0];
+    const response = await this.leaguesByLeagueId(leagueId);
+    return response;
+  };
+  this.leaguesById = async (summonerId) => {
+    const summoner = await new Summoner(region, apikey);
+    const { id } = await summoner.summonerById(summonerId);
+    const { leagueId } = (await this.entriesByAccId(id))[0];
+    const response = await this.leaguesByLeagueId(leagueId);
+    return response;
+  };
 };
 
 module.exports = League;
