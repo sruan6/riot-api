@@ -1,5 +1,5 @@
 ```javascript
-const { Tft } = require('riotgames-api');
+const { Tft } = require('riotgames-gg');
 
 const tft = new Tft({ region: 'NA', apikey: 'YOUR API KEY' });
 

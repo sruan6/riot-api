@@ -1,7 +1,7 @@
 # **🎮League of Legends🎮**
 
 ```javascript
-const { Lol } = require('riot-api');
+const { Lol } = require('riotgames=gg');
 
 const lol = new Lol({ region: 'NA', apikey: 'YOUR API KEY' });
 const summonerName = 'Summoner Name';

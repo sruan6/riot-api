@@ -1,7 +1,7 @@
 # **🎮League of Legends🎮**
 
 ```javascript
-const { Lol } = require('../../..');
+const { Lol } = require('riotgames-gg');
 
 const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
 const summonerId = 'summoner id';

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sruan6/riot-api.git"
+    "url": "git+https://github.com/sruan6/riotgames=gg.git"
   },
   "keywords": [
     "riot",
@@ -40,10 +40,10 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sruan6/riot-api/issues",
+    "url": "https://github.com/sruan6/riotgames=gg/issues",
     "email": "ruan060695@gmail.com"
   },
-  "homepage": "https://github.com/sruan6/riot-api#readme",
+  "homepage": "https://github.com/sruan6/riotgames=gg#readme",
   "dependencies": {
     "axios": "^0.20.0"
   },

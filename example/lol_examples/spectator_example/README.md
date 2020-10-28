@@ -3,7 +3,7 @@
 # **SPECTATOR**
 
 ```javascript
-const { Lol } = require('riot-api');
+const { Lol } = require('riotgames=gg');
 
 const lol = new Lol({ region: 'KR', apikey: 'YOUR API KEY' });
 const summonerName = 'Hide on Bush';

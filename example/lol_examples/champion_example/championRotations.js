@@ -8,4 +8,4 @@ const getChampionRotations = () => {
   });
 };
 
-getChampionRotations();
+module.exports = getChampionRotations;
