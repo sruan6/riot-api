@@ -149,27 +149,27 @@ getTftSummonerByName(summonerName);
 
 ###### List of TeamFight Tactics functions
 
-- [tft.]
-  - [League.]
-    - [challenger()]
-    - [entriesById(summonerId)]
-    - [entriesByAccId(accountId)]
-    - [entriesByPuuid(puuid)]
-    - [entriesByName(summonerName)]
-    - [entriesByTierDivision(tier,division)]
-    - [grandmaster()]
-    - [leaguesByLeagueId(leagueId)]
-    - [leaguesById(summonerId)]
-    - [leaguesByAccId(accountId)]
-    - [leaguesByPuuid(puuid)]
-    - [leaguesByName(summonerName)]
-    - [master()]
-  - [Match.]
-    - [matchesByPuuid(puuid,count)]
-    - [matchesByAccId(accountId,count)]
-    - [matchesById(summonerId,count)]
-    - [matchesByName(summonerName,count)]
-    - [matchesByMatchId(matchId)]
+- [tft.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples)
+  - [League.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples/league_example)
+    - [challenger()](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/challenger.js)
+    - [entriesById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entreiesById.js)
+    - [entriesByAccId(accountId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entriesByAccId.js)
+    - [entriesByPuuid(puuid)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entriesByPuuid.js)
+    - [entriesByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entriesByName.js)
+    - [entriesByTierDivision(tier,division)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/entriesByTierDivision.js)
+    - [grandmaster()](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/grandmaster.js)
+    - [leaguesByLeagueId(leagueId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByLeagueId.js)
+    - [leaguesById(summonerId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesById.js)
+    - [leaguesByAccId(accountId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByAccId.js)
+    - [leaguesByPuuid(puuid)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByPuuid.js)
+    - [leaguesByName(summonerName)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/leaguesByName.js)
+    - [master()](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/league_example/master.js)
+  - [Match.](https://github.com/sruan6/riot-api/tree/main/example/tft_examples/match_example)
+    - [matchesByPuuid(puuid,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByPuuid.js)
+    - [matchesByAccId(accountId,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByAccId.js)
+    - [matchesById(summonerId,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesById.js)
+    - [matchesByName(summonerName,count)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByName.js)
+    - [matchesByMatchId(matchId)](https://github.com/sruan6/riot-api/blob/main/example/tft_examples/match_example/matchesByMatchId.js)
   - [Summoner.]
     - [summonerByName(summonerName)]
     - [summonerByAccId(accountId)]
