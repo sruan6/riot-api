@@ -1,7 +1,5 @@
 # **🎮League of Legends🎮**
 
-# **SPECTATOR**
-
 ```javascript
 const { Lol } = require('riotgames=gg');
 

@@ -2,9 +2,10 @@ const axios = require('axios');
 
 // Tournament-V4
 const Tournament = function Tournament(region, apikey) {
-  this.codes = async () => {
+  this.codes = async (input) => {
     const { data } = await axios.post(
       `https://${region[1]}/lol/tournament/v4/codes?api_key=${apikey}`,
+      input,
     );
     return data;
   };
@@ -14,9 +15,13 @@ const Tournament = function Tournament(region, apikey) {
     );
     return data;
   };
-  this.updateCodesByTournamentCode = async (TournamentCode) => {
+  this.updateCodesByTournamentCode = async (
+    TournamentCode,
+    input,
+  ) => {
     const { data } = await axios.put(
       `https://${region[1]}/lol/tournament/v4/codes/${TournamentCode}?api_key=${apikey}`,
+      input,
     );
     return data;
   };
@@ -26,15 +31,17 @@ const Tournament = function Tournament(region, apikey) {
     );
     return data;
   };
-  this.providers = async () => {
+  this.providers = async (input) => {
     const { data } = await axios.post(
       `https://${region[1]}/lol/tournament/v4/providers?api_key=${apikey}`,
+      input,
     );
     return data;
   };
-  this.tournaments = async () => {
+  this.tournaments = async (input) => {
     const { data } = await axios.post(
       `https://${region[1]}/lol/tournament/v4/tournaments?api_key=${apikey}`,
+      input,
     );
     return data;
   };

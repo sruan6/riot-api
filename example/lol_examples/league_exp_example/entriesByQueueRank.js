@@ -1,7 +1,4 @@
-# **🎮League of Legends🎮**
-
-```javascript
-const { Lol } = require('riotgames-gg');
+const { Lol } = require('../../..');
 
 const lol = new Lol({ region: 'NA', apikey: 'YOUR API KEY' });
 
@@ -13,10 +10,4 @@ const leagueExpEntriesByQueueRank = (queue, tier, division, page) => {
   );
 };
 
-const queue = 'RANKED_SOLO_5x5';
-const tier = 'CHALLENGER';
-const division = 'I';
-const page = '1';
-
-leagueExpEntriesByQueueRank(queue, tier, division, page);
-```
+module.exports = leagueExpEntriesByQueueRank;

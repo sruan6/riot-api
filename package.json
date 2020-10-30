@@ -1,6 +1,6 @@
 {
   "name": "riotgames-gg",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Riot Api Wrapper",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sruan6/riotgames=gg.git"
+    "url": "git+https://github.com/sruan6/riotgames-gg.git"
   },
   "keywords": [
     "riot",
@@ -40,10 +40,10 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sruan6/riotgames=gg/issues",
+    "url": "https://github.com/sruan6/riotgames-gg/issues",
     "email": "ruan060695@gmail.com"
   },
-  "homepage": "https://github.com/sruan6/riotgames=gg#readme",
+  "homepage": "https://github.com/sruan6/riotgames-gg#readme",
   "dependencies": {
     "axios": "^0.20.0"
   },

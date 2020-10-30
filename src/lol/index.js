@@ -1,4 +1,4 @@
-const region = require('../lib/utils/utilies');
+const handleregion = require('../lib/utils/utilies');
 const Summoner = require('./summonerV4');
 const Spectator = require('./spectatorV4');
 const ChampionMastery = require('./champion_masteryV4');
@@ -12,17 +12,13 @@ const TournamentStub = require('./tournament_stubV4');
 const ThirdPartyCode = require('./third_party_codeV4');
 const Tournament = require('./tournamentV4');
 
-const lolapi = function lolapi(key) {
-  if (
-    !key.apikey ||
-    key.apikey === '' ||
-    key.apikey === 'YOUR API KEY'
-  ) {
+const lolapi = function lolapi({ region, apikey }) {
+  if (!apikey || apikey === '' || apikey === 'YOUR API KEY') {
     // console.error('missing apikey');
     throw new Error('missing apikey');
   }
-  this.region = region(key.region);
-  this.apikey = key.apikey;
+  this.region = handleregion(region);
+  this.apikey = apikey;
   this.Summoner = new Summoner(this.region, this.apikey);
   this.Spectator = new Spectator(this.region, this.apikey);
   this.ChampionMastery = new ChampionMastery(

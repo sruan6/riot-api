@@ -4,7 +4,7 @@ const assert = require('assert');
 const { Lol, Tft, Lor } = require('../index');
 
 describe('Riotgames-gg', function () {
-  const apikey = 'RGAPI-fc537012-7e3b-47dd-bf60-f6d3221aee08';
+  const apikey = process.env.RIOT_API;
   if (!apikey) {
     throw new Error('missing apikey');
   }
@@ -16,7 +16,7 @@ describe('Riotgames-gg', function () {
       return lol.Summoner.summonerByName('giuttony').then((data) => {
         assert.ok(data);
         assert.equal(data.profileIconId, 4777);
-      assert.equal(data.name, 'GIuttony')
+        assert.equal(data.name, 'GIuttony');
       });
       // const data = await lol.Summoner.summonerByName('giuttony')
       // assert.ok(data)
